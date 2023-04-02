@@ -20,7 +20,6 @@ int main()
     {
         cout << "Please Enter Kilometers: ";
         cin >> distance;
-        cout << "You Entered: " << distance << " Kilometers";
 
         cout << "Miles: " << distance * 0.621371;
     }
@@ -29,7 +28,6 @@ int main()
     {
         cout << "Please Enter Miles:";
         cin >> distance;
-        cout << "You Entered: " << distance << " Miles";
 
         cout << "Kilometers: " << distance * 1.60934;
     }
