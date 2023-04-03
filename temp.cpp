@@ -17,23 +17,17 @@ int main()
     cout << " Choose an option:\n1. Convert Celsius to Fahrenheit\n2. Convert Fahrenheit to Celsius\n";
     cin >> choice;
 
-    if (choice == 1)
-    {
-        cout << "Please Enter Celsius: ";
+    if (choice ==1) {
+        cout << "Please enter the temperature in Celsius: ";
         cin >> temp;
-
-        cout << "Fahrenheit: " << temp * 1.8 + 32;
+        cout << "The temperature in Fahrenheit is: " << (temp * 9/5) + 32;
     }
-
-    else if(choice ==2)
-    {
-        cout << "Please Enter Fahrenheit:";
+    else if (choice == 2) {
+        cout << "Please enter the temperature in Fahrenheit: ";
         cin >> temp;
-
-        cout << "Celsius: " << (temp - 32) / 1.8;
+        cout << "The temperature in Celsius is: " << (temp - 32) * 5/9;
     }
-
     else {
-        cout << "Invalid Choice";
+        cout << "Invalid choice";
     }
 }
